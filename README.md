@@ -52,7 +52,4 @@ The Decentralized Demand Side Platform is a groundbreaking approach to advertisi
 
 
 
-https://github.com/satrajitghosh183/Refugee_Secure_Data_Blockchain/assets/83156880/ac928ab5-c023-45ed-bdeb-ca7387621206
-
-
 
