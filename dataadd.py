@@ -15,8 +15,8 @@ contract = w3.eth.contract(address=contract_address, abi=contract_abi)
 with open('data.csv', 'r') as file:
     lines = file.readlines()
     for line in lines[1:]:  # Skip the header row
-        name, nationality, contact, image_path = line.strip().split(',')
-        contract.functions.addPerson(name, nationality, contact, image_path).transact()
+        companyname, address, phone = line.strip().split(',')
+        contract.functions.addPerson(companyname, address, phone).transact()
 
 # Check the number of records stored in the contract
 record_count = contract.functions.getPersonCount().call()
